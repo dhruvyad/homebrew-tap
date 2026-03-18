@@ -1,30 +1,28 @@
 class Wahooks < Formula
   desc "CLI for WAHooks — manage WhatsApp connections, webhooks, and messaging"
   homepage "https://github.com/dhruvyad/wahooks"
-  version "0.1.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/dhruvyad/wahooks/releases/download/cli-v#{version}/wahooks-darwin-arm64"
-      sha256 "c9c3a0f96414ed9f3d14b0fb6a7e5e4aad05b3463e61db826d38a30e371293b6"
+      sha256 "20f0ec2f768266e83ea71a8689fb2711c8f04f886f39cf24a6f1c636dd84ff7c"
     end
-
     on_intel do
       url "https://github.com/dhruvyad/wahooks/releases/download/cli-v#{version}/wahooks-darwin-amd64"
-      sha256 "b887e54f009152588740433ac01ab02396b06195258b1c8fd2aade940fb0907e"
+      sha256 "1eb00d5cece393b32694576d89fb66665ee0b5b2afb171db52a0de396d8694f3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dhruvyad/wahooks/releases/download/cli-v#{version}/wahooks-linux-arm64"
-      sha256 "5082548424945a28febdc1973c382be5acdab3a9b4ac6ef75efc08a320295e36"
+      sha256 "03a99132d241b6d8117ac29f31eb1a65eef27c6909b3d2161f6e082ccfc7ab3f"
     end
-
     on_intel do
       url "https://github.com/dhruvyad/wahooks/releases/download/cli-v#{version}/wahooks-linux-amd64"
-      sha256 "4f8200acdd3f13a080fdbca8aa63208463259d97b842c885f72078860c2b8ea6"
+      sha256 "eb14279b11595553a98ffd74fdca7e6cec904c210b53f1709826b65a54fcde91"
     end
   end
 
